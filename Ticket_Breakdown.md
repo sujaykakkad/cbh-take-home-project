@@ -22,7 +22,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 | F2 | Testing of `facilities/generateFacilityId` subtask of `F1`  | Manual Unit Testing| 2 | 
 | F3 | facilities/mapping |	Process to Insert/Update FacilityAgentid in the Agent table | 5 |
 | F4 | Testing of `facilities/mapping` subtask of `F3`	| Manual Unit Testing | 2 |
-| F5 facilities/generatereport|	facilities/generatereport |	Functionality to generate report - using parameter - Facility Agentid | 8 | 
+| F5 |	facilities/generatereport |	Functionality to generate report - using parameter - Facility Agentid | 8 | 
 | F6 | Adding sum functionality in generatereport subtask of `F5`	| Functionality to sum up hours for an agent for a shift | 2 |	
 | F7 | Testing of `facilities/generatereport` subtask of `F5`	| Manual Unit Testing |	2 |
 | F8 |	Test case writing and execution | Test Cases that can be covered for acceptance testing Facilityid, Agentid, FacilityAgentid, Shiftid should be unique and non-null values. One agentid can be mapped only to one facility for one shift at a time. FacilityAgentid generated should always be prefixed with 'F' followed by agentid" | 5 |
