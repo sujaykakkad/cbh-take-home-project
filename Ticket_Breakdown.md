@@ -16,3 +16,14 @@ Based on the information given, break this ticket down into 2-5 individual ticke
 You will be graded on the level of detail in each ticket, the clarity of the execution plan within and between tickets, and the intelligibility of your language. You don't need to be a native English speaker, but please proof-read your work.
 
 ## Your Breakdown Here
+| Ticket No | Task | Description | Time/Efforts(in hours) |
+| --- | --- | --- | --- |
+| F1 | facilities/generateFacilityId | Create a process to generate Facility Agentid whenever a new Agent is registered on Agent Portal UI. | 5 |
+| F2 | Testing of `facilities/generateFacilityId` subtask of `F1`  | Manual Unit Testing| 2 | 
+| F3 | facilities/mapping |	Process to Insert/Update FacilityAgentid in the Agent table | 5 |
+| F4 | Testing of `facilities/mapping` subtask of `F3`	| Manual Unit Testing | 2 |
+| F5 facilities/generatereport|	facilities/generatereport |	Functionality to generate report - using parameter - Facility Agentid | 8 | 
+| F6 | Adding sum functionality in generatereport subtask of `F5`	| Functionality to sum up hours for an agent for a shift | 2 |	
+| F7 | Testing of `facilities/generatereport` subtask of `F5`	| Manual Unit Testing |	2 |
+| F8 |	Test case writing and execution | Test Cases that can be covered for acceptance testing Facilityid, Agentid, FacilityAgentid, Shiftid should be unique and non-null values. One agentid can be mapped only to one facility for one shift at a time. FacilityAgentid generated should always be prefixed with 'F' followed by agentid" | 5 |
+
